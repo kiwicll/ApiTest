@@ -1,0 +1,53 @@
+createGroup:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - groupId
+    - groupName
+  notMustKeys:
+    - remove
+  bodyBase: {}
+  exceptBase: {}
+
+createNote:
+  path: '/v3/notesvr/set/noteinfo'
+  mustKeys:
+    - noteId
+  notMustKeys:
+    - star
+    - remindTime
+    - remindType
+    - groupId
+  bodyBase: {}
+  exceptBase: {}
+
+createNoteContent:
+  path: '/v3/notesvr/set/notecontent'
+  mustKeys:
+    - noteId
+    - title
+    - summary
+    - body
+    - localContentVersion
+    - BodyType
+  notMustKeys:
+    - remove
+  bodyBase: {}
+  exceptBase: {}
+
+getNoteBody:
+  path: '/v3/notesvr/get/notebody'
+  mustKeys:
+    - noteIds
+  notMustKeys:
+    - remove
+  bodyBase: {}
+  exceptBase: {}
+
+deleteNote:
+  path: '/v3/notesvr/delete'
+  mustKeys:
+    - noteId
+  notMustKeys:
+    - remove
+  bodyBase: { }
+  exceptBase: { }
