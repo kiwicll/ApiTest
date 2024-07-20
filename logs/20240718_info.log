@@ -1,0 +1,78 @@
+[STEP]09:48:54:777-test_input.py:29>>清空用户分组数据
+[STEP]09:48:54:913-test_input.py:29>>清空用户分组数据
+[STEP]09:48:55:012-test_input.py:29>>清空用户分组数据
+[STEP]09:48:55:107-test_input.py:29>>清空用户分组数据
+[STEP]09:48:55:201-test_input.py:29>>清空用户分组数据
+[STEP]09:48:55:292-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:461-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:583-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:686-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:782-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:879-test_input.py:29>>清空用户分组数据
+[STEP]09:56:53:980-test_input.py:29>>清空用户分组数据
+[STEP]09:56:59:714-test_input.py:29>>清空用户分组数据
+[STEP]09:56:59:830-test_input.py:29>>清空用户分组数据
+[STEP]09:56:59:926-test_input.py:29>>清空用户分组数据
+[STEP]09:57:00:021-test_input.py:29>>清空用户分组数据
+[STEP]09:57:00:118-test_input.py:29>>清空用户分组数据
+[STEP]09:57:00:218-test_input.py:29>>清空用户分组数据
+[STEP]09:59:25:626-test_input.py:29>>清空用户分组数据
+[STEP]09:59:25:737-test_input.py:29>>清空用户分组数据
+[STEP]09:59:25:841-test_input.py:29>>清空用户分组数据
+[STEP]09:59:25:939-test_input.py:29>>清空用户分组数据
+[STEP]09:59:26:040-test_input.py:29>>清空用户分组数据
+[STEP]09:59:26:134-test_input.py:29>>清空用户分组数据
+[STEP]09:59:40:034-test_major.py:24>>清空用户分组数据
+[INFO]09:59:44:249-logsMethod.py:57>>Class Name:SetGroup
+[INFO]09:59:44:250-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]09:59:44:251-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]09:59:44:253-test_major.py:29>>请求新增分组
+[INFO]09:59:44:342-apiRe.py:26>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]09:59:44:344-apiRe.py:27>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]09:59:44:345-apiRe.py:28>>【requests】body:{'groupId': '1721267984253_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]09:59:44:459-apiRe.py:34>>【requests】code:500
+[INFO]09:59:44:461-apiRe.py:35>>【requests】body:{"errorCode":-7,"errorMsg":""}
+[STEP]10:06:40:509-test_major.py:24>>清空用户分组数据
+[INFO]10:06:44:653-logsMethod.py:57>>Class Name:SetGroup
+[INFO]10:06:44:655-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]10:06:44:656-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]10:06:44:658-test_major.py:29>>请求新增分组
+[INFO]10:06:44:660-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]10:06:44:661-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]10:06:44:663-apiRe.py:30>>【requests】body:{'groupId': '1721268404658_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]10:06:44:778-apiRe.py:36>>【requests】code:200
+[INFO]10:06:44:780-apiRe.py:37>>【requests】body:{"responseTime":18,"updateTime":1721268406126}
+[STEP]10:06:44:782-test_major.py:43>>请求获取分组信息接口，校验数据源的正确性
+[STEP]10:07:40:855-test_major.py:24>>清空用户分组数据
+[INFO]10:07:45:540-logsMethod.py:57>>Class Name:SetGroup
+[INFO]10:07:45:541-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]10:07:45:543-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]10:07:45:544-test_major.py:29>>请求新增分组
+[INFO]10:07:45:546-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]10:07:45:547-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]10:07:45:549-apiRe.py:30>>【requests】body:{'groupId': '1721268465544_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]10:07:45:674-apiRe.py:36>>【requests】code:200
+[INFO]10:07:45:675-apiRe.py:37>>【requests】body:{"responseTime":19,"updateTime":1721268466955}
+[STEP]10:07:45:677-test_major.py:42>>请求获取分组信息接口，校验数据源的正确性
+[STEP]11:17:02:378-test_major.py:24>>清空用户分组数据
+[INFO]11:17:03:716-logsMethod.py:57>>Class Name:SetGroup
+[INFO]11:17:03:718-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:17:03:719-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]11:17:03:721-test_major.py:29>>请求新增分组
+[INFO]11:17:03:723-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]11:17:03:724-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:17:03:726-apiRe.py:30>>【requests】body:{'groupId': '1721272623721_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]11:17:03:833-apiRe.py:36>>【requests】code:200
+[INFO]11:17:03:834-apiRe.py:37>>【requests】body:{"responseTime":16,"updateTime":1721272624582}
+[STEP]11:17:03:836-test_major.py:42>>请求获取分组信息接口，校验数据源的正确性
+[STEP]11:17:29:383-test_major.py:24>>清空用户分组数据
+[INFO]11:17:30:784-logsMethod.py:57>>Class Name:SetGroup
+[INFO]11:17:30:785-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:17:30:787-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]11:17:30:788-test_major.py:29>>请求新增分组
+[INFO]11:17:30:790-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]11:17:30:792-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:17:30:793-apiRe.py:30>>【requests】body:{'groupId': '1721272650789_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]11:17:30:904-apiRe.py:36>>【requests】code:200
+[INFO]11:17:30:906-apiRe.py:37>>【requests】body:{"responseTime":18,"updateTime":1721272651540}
+[STEP]11:17:30:908-test_major.py:42>>请求获取分组信息接口，校验数据源的正确性

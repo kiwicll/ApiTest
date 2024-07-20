@@ -1,0 +1,1431 @@
+[STEP]11:03:49:782-test_major.py:25>>清空用户分组数据
+[INFO]11:04:28:745-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:04:28:747-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:04:28:749-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:04:28:751-test_major.py:30>>请求新增便签主体
+[INFO]11:04:28:856-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]11:04:28:857-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:04:28:859-apiRe.py:30>>【requests】body:{'groupId': '1721358268751_groupId'}
+[INFO]11:04:28:968-apiRe.py:36>>【requests】code:500
+[INFO]11:04:28:976-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:05:26:762-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:05:26:764-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:05:26:766-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:05:26:769-test_major.py:30>>请求新增便签主体
+[INFO]11:05:26:773-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:05:26:776-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:05:26:778-apiRe.py:30>>【requests】body:{'groupId': '1721358326770_groupId'}
+[INFO]11:05:26:910-apiRe.py:36>>【requests】code:500
+[INFO]11:05:26:912-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:06:38:052-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:06:38:053-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:06:38:054-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:06:38:056-test_major.py:30>>请求新增便签主体
+[INFO]11:06:38:058-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:06:38:059-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:06:38:061-apiRe.py:30>>【requests】body:{'noteId': '1721358398056_noteId'}
+[INFO]11:06:38:166-apiRe.py:36>>【requests】code:500
+[INFO]11:06:38:167-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:13:50:158-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:13:50:160-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:13:50:161-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:13:50:163-test_major.py:30>>请求新增便签主体
+[INFO]11:13:50:165-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:13:50:167-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:13:50:168-apiRe.py:30>>【requests】body:{'noteId': '1721358830164_noteId', 'star': 0, 'remindTime': 1721358830.1644547, 'remindType': 0, 'groupId': '001'}
+[INFO]11:13:50:282-apiRe.py:36>>【requests】code:500
+[INFO]11:13:50:283-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:15:02:342-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:15:02:343-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:15:02:344-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:15:02:346-test_major.py:30>>请求新增便签主体
+[INFO]11:15:02:348-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:15:02:350-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:15:02:352-apiRe.py:30>>【requests】body:{'noteId': {'1721358902347_noteId'}, 'star': 0, 'remindTime': 1721358902.3471942, 'remindType': 0, 'groupId': '001'}
+[INFO]11:15:58:779-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:15:58:780-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:15:58:782-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:15:58:784-test_major.py:30>>请求新增便签主体
+[INFO]11:15:58:786-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:15:58:788-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:15:58:790-apiRe.py:30>>【requests】body:{'noteId': '1721358958784_noteId', 'star': 0, 'remindTime': 1721358958.784019, 'remindType': 0, 'groupId': '001'}
+[INFO]11:15:58:898-apiRe.py:36>>【requests】code:500
+[INFO]11:15:58:900-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:16:34:484-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:16:34:485-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:16:34:487-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:16:34:488-test_major.py:30>>请求新增便签主体
+[INFO]11:16:34:491-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:16:34:494-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:16:34:496-apiRe.py:30>>【requests】body:{'noteId': '1721358994489_noteId', 'star': 0, 'remindTime': 1721358994.4891732, 'remindType': 0, 'groupId': '001'}
+[INFO]11:16:34:604-apiRe.py:36>>【requests】code:500
+[INFO]11:16:34:606-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:16:53:013-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:16:53:014-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:16:53:016-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:16:53:017-test_major.py:30>>请求新增便签主体
+[INFO]11:16:53:021-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:16:53:023-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:16:53:024-apiRe.py:30>>【requests】body:{'noteId': 'noteId', 'star': 0, 'remindTime': 1721359013.0181236, 'remindType': 0, 'groupId': '001'}
+[INFO]11:16:53:148-apiRe.py:36>>【requests】code:500
+[INFO]11:16:53:150-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:17:49:026-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:17:49:027-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:17:49:029-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:17:49:031-test_major.py:30>>请求新增便签主体
+[INFO]11:17:49:033-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:17:49:035-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:17:49:036-apiRe.py:30>>【requests】body:{'noteId': '1721359069031_noteId', 'star': 0, 'remindTime': 1721359069.031701, 'remindType': 0, 'groupId': '001'}
+[INFO]11:17:49:139-apiRe.py:36>>【requests】code:500
+[INFO]11:17:49:141-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:18:19:359-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:18:19:360-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:18:19:362-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:18:19:363-test_major.py:30>>请求新增便签主体
+[INFO]11:18:19:366-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:18:19:367-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:18:19:369-apiRe.py:30>>【requests】body:{'noteId': "str(int(time.time() * 1000)) + '_noteId'", 'star': 0, 'remindTime': 1721359099.3643563, 'remindType': 0, 'groupId': '001'}
+[INFO]11:18:19:495-apiRe.py:36>>【requests】code:500
+[INFO]11:18:19:497-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:20:06:964-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:20:06:966-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:20:06:967-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:20:06:969-test_major.py:30>>请求新增便签主体
+[INFO]11:20:06:971-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:20:06:973-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:20:06:974-apiRe.py:30>>【requests】body:{'noteId': '1721359206969_noteId', 'star': 0, 'remindTime': 1721359206.969339, 'remindType': 0, 'groupId': '001'}
+[INFO]11:20:07:083-apiRe.py:36>>【requests】code:500
+[INFO]11:20:07:084-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:20:25:874-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:20:25:876-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:20:25:877-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:20:25:879-test_major.py:30>>请求新增便签主体
+[INFO]11:20:25:882-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:20:25:883-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': "439541276'"}
+[INFO]11:20:25:885-apiRe.py:30>>【requests】body:{'noteId': '1721359225879_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]11:20:25:992-apiRe.py:36>>【requests】code:500
+[INFO]11:20:25:993-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数类型错误！"}
+[INFO]11:24:31:777-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:24:31:778-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:24:31:780-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:24:31:782-test_major.py:30>>请求新增便签主体
+[INFO]11:24:31:784-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:24:31:786-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:24:31:787-apiRe.py:30>>【requests】body:{'noteId': '1721359471782_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]11:24:32:073-apiRe.py:36>>【requests】code:200
+[INFO]11:24:32:074-apiRe.py:37>>【requests】body:{"responseTime":21,"infoVersion":1,"infoUpdateTime":1721359472960}
+[STEP]11:24:32:076-test_major.py:48>>请求获取分组信息接口，校验数据源的正确性
+[INFO]11:26:12:206-logsMethod.py:57>>Class Name:SetNote
+[INFO]11:26:12:208-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]11:26:12:209-logsMethod.py:59>>Test Description:新增便签主题主流程
+[STEP]11:26:12:211-test_major.py:30>>请求新增便签主体
+[INFO]11:26:12:213-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:26:12:215-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:26:12:216-apiRe.py:30>>【requests】body:{'noteId': '1721359572212_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]11:26:12:352-apiRe.py:36>>【requests】code:200
+[INFO]11:26:12:354-apiRe.py:37>>【requests】body:{"responseTime":25,"infoVersion":1,"infoUpdateTime":1721359573382}
+[STEP]11:26:12:355-test_major.py:48>>请求获取分组信息接口，校验数据源的正确性
+[INFO]11:32:10:476-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:32:10:478-logsMethod.py:58>>Method Name:testCase01_input_0_groupId
+[INFO]11:32:10:480-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='groupId']
+[STEP]11:32:10:514-test_input.py:32>>请求新增便签主体
+[INFO]11:32:10:516-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:32:10:518-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:32:10:520-apiRe.py:30>>【requests】body:{'noteId': '_noteId', 'star': 0, 'remindType': 0}
+[INFO]11:32:10:652-apiRe.py:36>>【requests】code:200
+[INFO]11:32:10:655-apiRe.py:37>>【requests】body:{"responseTime":18,"infoVersion":1,"infoUpdateTime":1721359931698}
+[INFO]11:34:03:706-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:34:03:708-logsMethod.py:58>>Method Name:testCase01_input_0_noteId
+[INFO]11:34:03:710-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]11:34:03:712-test_input.py:32>>请求新增便签主体
+[INFO]11:34:03:713-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:34:03:715-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:34:03:717-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]11:34:03:826-apiRe.py:36>>【requests】code:500
+[INFO]11:34:03:828-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:36:30:971-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:36:30:973-logsMethod.py:58>>Method Name:testCase01_empty_key_0_noteId
+[INFO]11:36:30:974-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]11:36:30:976-test_input.py:48>>请求新增便签主体
+[INFO]11:36:30:978-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:36:30:980-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:36:30:983-apiRe.py:30>>【requests】body:{'noteId': '_noteId', 'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]11:36:31:145-apiRe.py:36>>【requests】code:200
+[INFO]11:36:31:147-apiRe.py:37>>【requests】body:{"responseTime":21,"infoVersion":2,"infoUpdateTime":1721360192217}
+[INFO]11:36:31:152-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:36:31:153-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]11:36:31:155-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]11:36:31:157-test_input.py:32>>请求新增便签主体
+[INFO]11:36:31:159-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:36:31:161-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:36:31:163-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]11:36:31:263-apiRe.py:36>>【requests】code:500
+[INFO]11:36:31:265-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:37:42:248-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:37:42:250-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]11:37:42:251-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]11:37:42:254-test_input.py:32>>请求新增便签主体
+[INFO]11:37:42:255-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:37:42:257-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:37:42:259-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]11:37:42:366-apiRe.py:36>>【requests】code:500
+[INFO]11:37:42:367-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:37:42:369-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:37:42:370-logsMethod.py:58>>Method Name:testCase02_empty_key_0_noteId
+[INFO]11:37:42:372-logsMethod.py:59>>Test Description:新增便签主,必填项值为空 [with key='noteId']
+[STEP]11:37:42:373-test_input.py:40>>请求新增便签主体
+[INFO]11:37:42:375-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:37:42:376-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:37:42:378-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': ''}
+[INFO]11:37:42:474-apiRe.py:36>>【requests】code:500
+[INFO]11:37:42:476-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]11:37:42:478-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]11:37:42:480-logsMethod.py:58>>Method Name:testCase03_None_key_0_noteId
+[INFO]11:37:42:481-logsMethod.py:59>>Test Description:新增便签主,必填项为None [with key='noteId']
+[STEP]11:37:42:483-test_input.py:48>>请求新增便签主体
+[INFO]11:37:42:484-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]11:37:42:486-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]11:37:42:488-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]11:37:42:585-apiRe.py:36>>【requests】code:500
+[INFO]11:37:42:588-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:26:55:697-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]15:26:55:699-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]15:26:55:701-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]15:26:55:702-test_major.py:34>>请求新增便签内容
+[STEP]15:26:55:704-test_major.py:45>>入参加密
+[INFO]15:26:55:713-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:26:55:714-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:26:55:716-apiRe.py:30>>【requests】body:{'noteId': 'NTE1MDk1NjE1MzM0NTM2NtSZVd3kBmSZ3gmGjSKfH9w1phJA/R8uH52xh5aHnAvG', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'body_test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:29:40:848-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]15:29:40:850-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]15:29:40:851-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]15:29:40:853-test_major.py:34>>请求新增便签内容
+[STEP]15:29:40:855-test_major.py:45>>入参加密
+[INFO]15:29:40:857-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:29:40:859-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:29:40:861-apiRe.py:30>>【requests】body:{'noteId': 'NTE1MDk1NjE1MzM0NTM2NsUQ0jbsOVyEAF8RF2GNHbw6RVlOPZAhiSEKHWuw/DhF', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'body_test', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:29:40:996-apiRe.py:36>>【requests】code:500
+[INFO]15:29:40:997-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:30:33:999-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]15:30:34:001-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]15:30:34:002-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]15:30:34:004-test_major.py:34>>请求新增便签内容
+[STEP]15:30:34:006-test_major.py:45>>入参加密
+[INFO]15:30:34:007-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:30:34:009-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:30:34:009-apiRe.py:30>>【requests】body:{'noteId': '1721374234005_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:30:34:151-apiRe.py:36>>【requests】code:200
+[INFO]15:30:34:152-apiRe.py:37>>【requests】body:{"responseTime":22,"contentVersion":1,"contentUpdateTime":1721374235680}
+[STEP]15:30:34:154-test_major.py:58>>请求获取分组信息接口，校验数据源的正确性
+[INFO]15:44:49:990-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:44:49:992-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:44:49:993-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:44:49:995-test_input.py:48>>请求新增便签内容
+[STEP]15:44:49:997-test_input.py:55>>入参加密
+[INFO]15:44:49:999-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:44:50:000-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:44:50:002-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:45:05:037-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:45:05:039-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:45:05:041-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:45:05:043-test_input.py:48>>请求新增便签内容
+[STEP]15:45:05:044-test_input.py:55>>入参加密
+[INFO]15:45:05:046-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:45:05:048-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:45:05:049-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:45:05:167-apiRe.py:36>>【requests】code:500
+[INFO]15:45:05:169-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]15:45:05:170-test_input.py:73>>请求获取分组信息接口，校验数据源的正确性
+[INFO]15:45:40:510-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:45:40:511-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:45:40:513-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:45:40:515-test_input.py:48>>请求新增便签内容
+[STEP]15:45:40:517-test_input.py:55>>入参加密
+[INFO]15:45:40:519-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:45:40:520-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:45:40:522-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:45:40:631-apiRe.py:36>>【requests】code:500
+[INFO]15:45:40:632-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:47:24:485-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:47:24:487-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]15:47:24:488-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:47:24:490-test_input.py:70>>请求新增便签内容
+[STEP]15:47:24:492-test_input.py:77>>入参加密
+[INFO]15:47:24:494-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:47:24:496-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:47:24:497-apiRe.py:30>>【requests】body:{'noteId': '', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:47:24:605-apiRe.py:36>>【requests】code:500
+[INFO]15:47:24:607-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:48:21:475-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:48:21:477-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]15:48:21:479-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:48:21:481-test_input.py:92>>请求新增便签内容
+[STEP]15:48:21:484-test_input.py:99>>入参加密
+[INFO]15:48:21:488-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:48:21:491-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:48:21:494-apiRe.py:30>>【requests】body:{'noteId': None, 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:48:21:632-apiRe.py:36>>【requests】code:500
+[INFO]15:48:21:634-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:51:28:801-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:28:803-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:51:28:805-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:51:28:807-test_input.py:48>>请求新增便签内容
+[STEP]15:51:28:808-test_input.py:55>>入参加密
+[INFO]15:51:28:810-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:51:28:812-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:51:28:813-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:51:28:926-apiRe.py:36>>【requests】code:500
+[INFO]15:51:28:927-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:51:28:929-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:28:931-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]15:51:28:932-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:51:28:934-test_input.py:70>>请求新增便签内容
+[STEP]15:51:28:935-test_input.py:77>>入参加密
+[INFO]15:51:28:937-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:51:28:939-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:51:28:940-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]15:51:29:030-apiRe.py:36>>【requests】code:500
+[INFO]15:51:29:032-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:51:29:033-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:29:036-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]15:51:29:037-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:51:29:039-test_input.py:92>>请求新增便签内容
+[STEP]15:51:29:041-test_input.py:99>>入参加密
+[INFO]15:51:29:043-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:51:29:044-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:51:29:046-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:51:29:137-apiRe.py:36>>【requests】code:500
+[INFO]15:51:29:138-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:51:29:141-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:29:143-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]15:51:29:144-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]15:51:29:146-test_input.py:112>>请求新增便签内容
+[STEP]15:51:29:147-test_input.py:117>>入参加密
+[INFO]15:51:29:149-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:51:29:151-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:51:29:152-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:51:29:245-apiRe.py:36>>【requests】code:500
+[INFO]15:51:29:246-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:51:29:248-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:29:249-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]15:51:29:251-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:51:29:253-test_input.py:134>>请求新增便签内容
+[STEP]15:51:29:254-test_input.py:139>>入参加密
+[INFO]15:51:29:258-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:51:29:259-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]15:51:29:261-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:51:29:262-test_input.py:157>>请求新增便签内容
+[STEP]15:51:29:264-test_input.py:161>>入参加密
+[INFO]15:57:10:640-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:10:642-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:57:10:643-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:57:10:645-test_input.py:48>>请求新增便签内容
+[STEP]15:57:10:647-test_input.py:55>>入参加密
+[INFO]15:57:10:649-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:10:650-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:10:652-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:57:10:764-apiRe.py:36>>【requests】code:500
+[INFO]15:57:10:766-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:10:768-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:10:770-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]15:57:10:771-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:57:10:772-test_input.py:70>>请求新增便签内容
+[STEP]15:57:10:774-test_input.py:77>>入参加密
+[INFO]15:57:10:776-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:10:777-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:10:779-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]15:57:10:872-apiRe.py:36>>【requests】code:500
+[INFO]15:57:10:874-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:10:876-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:10:878-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]15:57:10:880-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:57:10:881-test_input.py:92>>请求新增便签内容
+[STEP]15:57:10:883-test_input.py:99>>入参加密
+[INFO]15:57:10:885-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:10:886-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:10:888-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:57:10:987-apiRe.py:36>>【requests】code:500
+[INFO]15:57:10:988-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:10:990-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:10:991-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]15:57:10:993-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]15:57:10:994-test_input.py:112>>请求新增便签内容
+[STEP]15:57:10:996-test_input.py:117>>入参加密
+[INFO]15:57:10:997-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:10:999-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:11:001-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:57:11:100-apiRe.py:36>>【requests】code:500
+[INFO]15:57:11:101-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:11:103-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:11:104-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]15:57:11:106-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:57:11:108-test_input.py:134>>请求新增便签内容
+[STEP]15:57:11:109-test_input.py:138>>入参加密
+[INFO]15:57:11:113-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:11:114-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]15:57:11:116-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:57:11:117-test_input.py:155>>请求新增便签内容
+[STEP]15:57:11:119-test_input.py:159>>入参加密
+[INFO]15:57:52:938-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:52:940-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:57:52:941-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:57:52:944-test_input.py:48>>请求新增便签内容
+[STEP]15:57:52:946-test_input.py:55>>入参加密
+[INFO]15:57:52:949-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:52:952-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:52:954-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:57:53:065-apiRe.py:36>>【requests】code:500
+[INFO]15:57:53:067-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:53:069-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:53:070-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]15:57:53:072-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:57:53:073-test_input.py:70>>请求新增便签内容
+[STEP]15:57:53:075-test_input.py:77>>入参加密
+[INFO]15:57:53:076-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:53:078-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:53:080-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]15:57:53:203-apiRe.py:36>>【requests】code:500
+[INFO]15:57:53:206-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:53:210-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:53:216-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]15:57:53:218-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:57:53:220-test_input.py:92>>请求新增便签内容
+[STEP]15:57:53:222-test_input.py:99>>入参加密
+[INFO]15:57:53:224-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:53:226-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:53:227-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:57:53:323-apiRe.py:36>>【requests】code:500
+[INFO]15:57:53:325-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:53:327-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:53:328-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]15:57:53:330-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]15:57:53:331-test_input.py:112>>请求新增便签内容
+[STEP]15:57:53:333-test_input.py:117>>入参加密
+[INFO]15:57:53:334-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:53:336-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:53:337-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:57:53:433-apiRe.py:36>>【requests】code:500
+[INFO]15:57:53:435-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:53:437-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:53:439-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]15:57:53:440-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:57:53:442-test_input.py:134>>请求新增便签内容
+[STEP]15:57:53:443-test_input.py:141>>入参加密
+[INFO]15:57:53:445-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:57:53:446-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:57:53:448-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]15:57:53:542-apiRe.py:36>>【requests】code:500
+[INFO]15:57:53:543-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:57:53:545-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:57:53:546-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]15:57:53:548-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:57:53:549-test_input.py:157>>请求新增便签内容
+[STEP]15:57:53:551-test_input.py:164>>入参加密
+[INFO]15:58:51:634-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:51:635-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]15:58:51:637-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]15:58:51:640-test_input.py:48>>请求新增便签内容
+[STEP]15:58:51:641-test_input.py:55>>入参加密
+[INFO]15:58:51:644-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:51:646-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:51:648-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]15:58:51:756-apiRe.py:36>>【requests】code:500
+[INFO]15:58:51:758-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:58:51:760-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:51:762-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]15:58:51:763-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:58:51:765-test_input.py:70>>请求新增便签内容
+[STEP]15:58:51:766-test_input.py:77>>入参加密
+[INFO]15:58:51:768-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:51:770-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:51:772-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]15:58:51:869-apiRe.py:36>>【requests】code:500
+[INFO]15:58:51:871-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:58:51:873-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:51:877-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]15:58:51:879-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]15:58:51:881-test_input.py:92>>请求新增便签内容
+[STEP]15:58:51:883-test_input.py:99>>入参加密
+[INFO]15:58:51:885-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:51:887-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:51:889-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:58:51:984-apiRe.py:36>>【requests】code:500
+[INFO]15:58:51:986-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:58:51:988-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:51:989-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]15:58:51:991-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]15:58:51:993-test_input.py:112>>请求新增便签内容
+[STEP]15:58:51:995-test_input.py:117>>入参加密
+[INFO]15:58:51:997-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:51:999-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:52:001-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]15:58:52:095-apiRe.py:36>>【requests】code:500
+[INFO]15:58:52:096-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:58:52:098-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:52:100-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]15:58:52:101-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:58:52:103-test_input.py:134>>请求新增便签内容
+[STEP]15:58:52:105-test_input.py:141>>入参加密
+[INFO]15:58:52:107-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:52:108-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:52:110-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]15:58:52:205-apiRe.py:36>>【requests】code:500
+[INFO]15:58:52:207-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]15:58:52:209-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]15:58:52:210-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]15:58:52:212-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]15:58:52:213-test_input.py:157>>请求新增便签内容
+[STEP]15:58:52:215-test_input.py:164>>入参加密
+[INFO]15:58:52:216-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]15:58:52:218-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]15:58:52:219-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LiHPKLt83vsIIzEAxKqakzDKXbb4JLYJKjfoRp+2e4+dPohgZc23n1UCUYRSf9gVmzmh3VzvNUhst8SYulx47BZ/swutwkgFyD5KnuO3K+yNlYlJyKWDqYUoNBkHaY+Yw5Hark2r5bkzuwMHqxSaQ28VuNpRTVUMwIiwiYm35y1X16xkJ9Jh4xlbvs+S00STnIC8FPs4uZtSrqI2RcAnSvOd6Ej9GeVnTfDTnH6y87r7prdLCRq4qDC2g5ZQKHlnRRqRY6xKDaiIyvv3T/FIrg=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LoFd+fPre6cIvM5w5zMyrTPBcpCLcjxO9fbm0eONFd7+yqkiHcKQige1wzV8kw2KfjSnfa3K3wyGsx5kRw2toC9gav50POPHuY4n6hpCp663ACS2YXt8zM71Y3mkmOrQBgU4jjwjztyxiLPUkaqI/ZCoEQ1Sl8i03QjV9AiOKiQY1fguXfoArHGbgsflABAgZRZ4cIFAYYNQNUSA575SRqLiqS7HHQPuapV/BFWWyW5cVAM8rGXEQ5BWm0/jSMNwfUMUxYQJ11+kZyQHKm+DWE=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': None}
+[INFO]15:58:52:317-apiRe.py:36>>【requests】code:500
+[INFO]15:58:52:318-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:07:22:235-test_major.py:22>>清空用户分组数据
+[STEP]16:07:26:165-test_major.py:22>>清空用户分组数据
+[STEP]16:07:29:856-test_input.py:29>>清空用户分组数据
+[STEP]16:07:34:001-test_input.py:29>>清空用户分组数据
+[STEP]16:07:37:812-test_input.py:29>>清空用户分组数据
+[STEP]16:07:41:727-test_input.py:29>>清空用户分组数据
+[STEP]16:07:45:586-test_input.py:29>>清空用户分组数据
+[STEP]16:07:49:414-test_input.py:29>>清空用户分组数据
+[STEP]16:07:53:274-test_major.py:24>>清空用户分组数据
+[INFO]16:07:57:023-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:07:57:024-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]16:07:57:025-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]16:07:57:027-test_input.py:48>>请求新增便签内容
+[STEP]16:07:57:028-test_input.py:55>>入参加密
+[INFO]16:07:57:030-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:07:57:031-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:07:57:032-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:08:00:867-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:08:00:868-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]16:08:00:870-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:08:00:872-test_input.py:70>>请求新增便签内容
+[STEP]16:08:00:873-test_input.py:77>>入参加密
+[INFO]16:08:00:875-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:00:876-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:00:878-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]16:08:04:563-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:08:04:564-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]16:08:04:565-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:08:04:567-test_input.py:92>>请求新增便签内容
+[STEP]16:08:04:569-test_input.py:99>>入参加密
+[INFO]16:08:04:570-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:04:572-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:04:573-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:08:08:439-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:08:08:440-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]16:08:08:441-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]16:08:08:442-test_input.py:112>>请求新增便签内容
+[STEP]16:08:08:444-test_input.py:117>>入参加密
+[INFO]16:08:08:445-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:08:446-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:08:448-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:08:12:291-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:08:12:293-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]16:08:12:294-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:08:12:295-test_input.py:134>>请求新增便签内容
+[STEP]16:08:12:296-test_input.py:141>>入参加密
+[INFO]16:08:12:298-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:12:299-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:12:300-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]16:08:16:194-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:08:16:196-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]16:08:16:197-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:08:16:198-test_input.py:157>>请求新增便签内容
+[STEP]16:08:16:199-test_input.py:164>>入参加密
+[INFO]16:08:16:201-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:16:203-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:16:204-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LiHPKLt83vsIIzEAxKqakzDKXbb4JLYJKjfoRp+2e4+dPohgZc23n1UCUYRSf9gVmzmh3VzvNUhst8SYulx47BZ/swutwkgFyD5KnuO3K+yNlYlJyKWDqYUoNBkHaY+Yw5Hark2r5bkzuwMHqxSaQ28VuNpRTVUMwIiwiYm35y1X16xkJ9Jh4xlbvs+S00STnIC8FPs4uZtSrqI2RcAnSvOd6Ej9GeVnTfDTnH6y87r7prdLCRq4qDC2g5ZQKHlnRRqRY6xKDaiIyvv3T/FIrg=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LoFd+fPre6cIvM5w5zMyrTPBcpCLcjxO9fbm0eONFd7+yqkiHcKQige1wzV8kw2KfjSnfa3K3wyGsx5kRw2toC9gav50POPHuY4n6hpCp663ACS2YXt8zM71Y3mkmOrQBgU4jjwjztyxiLPUkaqI/ZCoEQ1Sl8i03QjV9AiOKiQY1fguXfoArHGbgsflABAgZRZ4cIFAYYNQNUSA575SRqLiqS7HHQPuapV/BFWWyW5cVAM8rGXEQ5BWm0/jSMNwfUMUxYQJ11+kZyQHKm+DWE=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': None}
+[INFO]16:08:20:371-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]16:08:20:372-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:08:20:373-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]16:08:20:375-test_major.py:37>>请求新增便签内容
+[STEP]16:08:20:376-test_major.py:51>>入参加密
+[INFO]16:08:20:377-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:08:20:378-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:20:380-apiRe.py:30>>【requests】body:{'noteId': '1721376500375_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:08:24:443-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:08:24:444-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]16:08:24:445-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]16:08:24:457-test_input.py:34>>请求新增便签主体
+[INFO]16:08:24:458-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:08:24:459-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:24:461-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]16:08:29:365-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:08:29:366-logsMethod.py:58>>Method Name:testCase02_empty_key_0_noteId
+[INFO]16:08:29:367-logsMethod.py:59>>Test Description:新增便签主,必填项值为空 [with key='noteId']
+[STEP]16:08:29:368-test_input.py:42>>请求新增便签主体
+[INFO]16:08:29:370-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:08:29:371-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:29:372-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': ''}
+[INFO]16:08:33:479-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:08:33:480-logsMethod.py:58>>Method Name:testCase03_None_key_0_noteId
+[INFO]16:08:33:481-logsMethod.py:59>>Test Description:新增便签主,必填项为None [with key='noteId']
+[STEP]16:08:33:482-test_input.py:50>>请求新增便签主体
+[INFO]16:08:33:483-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:08:33:485-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:33:486-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]16:08:37:618-logsMethod.py:57>>Class Name:SetNote
+[INFO]16:08:37:619-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:08:37:620-logsMethod.py:59>>Test Description:新增便签主体主流程
+[STEP]16:08:37:622-test_major.py:29>>请求新增便签主体
+[INFO]16:08:37:623-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:08:37:624-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:08:37:626-apiRe.py:30>>【requests】body:{'noteId': '1721376517622_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[STEP]16:10:27:245-test_major.py:22>>清空用户分组数据
+[INFO]16:10:31:046-logsMethod.py:57>>Class Name:DeleteNote
+[INFO]16:10:31:048-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:10:31:049-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]16:10:31:050-test_major.py:27>>请求新增分组
+[STEP]16:10:31:052-test_major.py:22>>清空用户分组数据
+[INFO]16:10:33:149-logsMethod.py:57>>Class Name:DeleteNote
+[INFO]16:10:33:151-logsMethod.py:58>>Method Name:testCase02_input
+[INFO]16:10:33:152-logsMethod.py:59>>Test Description:新增分组主流程,必填项缺失
+[STEP]16:10:33:153-test_major.py:43>>请求新增分组
+[STEP]16:10:33:155-test_input.py:29>>清空用户分组数据
+[INFO]16:10:35:338-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:35:339-logsMethod.py:58>>Method Name:testCase01_remove_key_0_groupId
+[INFO]16:10:35:340-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:10:35:342-test_input.py:35>>请求新增分组
+[INFO]16:10:35:343-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:35:345-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:35:346-apiRe.py:30>>【requests】body:{'groupName': 'NAME0601', 'order': 0}
+[INFO]16:10:35:440-apiRe.py:36>>【requests】code:500
+[INFO]16:10:35:442-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:10:35:443-test_input.py:29>>清空用户分组数据
+[INFO]16:10:37:486-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:37:488-logsMethod.py:58>>Method Name:testCase01_remove_key_1_groupName
+[INFO]16:10:37:489-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:10:37:490-test_input.py:35>>请求新增分组
+[INFO]16:10:37:491-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:37:493-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:37:494-apiRe.py:30>>【requests】body:{'groupId': '1721376637490_groupId', 'order': 0}
+[INFO]16:10:37:590-apiRe.py:36>>【requests】code:500
+[INFO]16:10:37:591-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:10:37:593-test_input.py:29>>清空用户分组数据
+[INFO]16:10:39:711-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:39:712-logsMethod.py:58>>Method Name:testCase02_empty_key_0_groupId
+[INFO]16:10:39:713-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:10:39:715-test_input.py:50>>请求新增分组
+[INFO]16:10:39:716-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:39:717-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:39:718-apiRe.py:30>>【requests】body:{'groupId': '1721376639715_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]16:10:39:836-apiRe.py:36>>【requests】code:200
+[INFO]16:10:39:837-apiRe.py:37>>【requests】body:{"responseTime":16,"updateTime":1721376641448}
+[STEP]16:10:39:839-test_input.py:29>>清空用户分组数据
+[INFO]16:10:42:045-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:42:047-logsMethod.py:58>>Method Name:testCase02_empty_key_1_groupName
+[INFO]16:10:42:048-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:10:42:049-test_input.py:50>>请求新增分组
+[INFO]16:10:42:050-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:42:052-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:42:053-apiRe.py:30>>【requests】body:{'groupId': '1721376642049_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]16:10:42:166-apiRe.py:36>>【requests】code:200
+[INFO]16:10:42:167-apiRe.py:37>>【requests】body:{"responseTime":20,"updateTime":1721376643780}
+[STEP]16:10:42:169-test_input.py:29>>清空用户分组数据
+[INFO]16:10:44:539-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:44:540-logsMethod.py:58>>Method Name:testCase03_key_None_0_groupId
+[INFO]16:10:44:541-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:10:44:543-test_input.py:65>>请求新增分组
+[INFO]16:10:44:544-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:44:545-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:44:546-apiRe.py:30>>【requests】body:{'groupId': '1721376644543_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]16:10:44:658-apiRe.py:36>>【requests】code:200
+[INFO]16:10:44:660-apiRe.py:37>>【requests】body:{"responseTime":16,"updateTime":1721376646272}
+[STEP]16:10:44:662-test_input.py:29>>清空用户分组数据
+[INFO]16:10:47:153-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:10:47:154-logsMethod.py:58>>Method Name:testCase03_key_None_1_groupName
+[INFO]16:10:47:155-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:10:47:156-test_input.py:65>>请求新增分组
+[INFO]16:10:47:158-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:47:159-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:47:160-apiRe.py:30>>【requests】body:{'groupId': '1721376647157_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]16:10:47:275-apiRe.py:36>>【requests】code:200
+[INFO]16:10:47:276-apiRe.py:37>>【requests】body:{"responseTime":20,"updateTime":1721376648887}
+[STEP]16:10:47:279-test_major.py:24>>清空用户分组数据
+[INFO]16:10:50:077-logsMethod.py:57>>Class Name:SetGroup
+[INFO]16:10:50:078-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:10:50:079-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]16:10:50:080-test_major.py:29>>请求新增分组
+[INFO]16:10:50:081-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:10:50:083-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:084-apiRe.py:30>>【requests】body:{'groupId': '1721376650080_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]16:10:50:205-apiRe.py:36>>【requests】code:200
+[INFO]16:10:50:206-apiRe.py:37>>【requests】body:{"responseTime":17,"updateTime":1721376651750}
+[STEP]16:10:50:207-test_major.py:42>>请求获取分组信息接口，校验数据源的正确性
+[INFO]16:10:50:209-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:210-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]16:10:50:211-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]16:10:50:213-test_input.py:48>>请求新增便签内容
+[STEP]16:10:50:214-test_input.py:55>>入参加密
+[INFO]16:10:50:216-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:217-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:218-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:10:50:314-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:316-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:318-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:319-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]16:10:50:320-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:10:50:322-test_input.py:70>>请求新增便签内容
+[STEP]16:10:50:324-test_input.py:77>>入参加密
+[INFO]16:10:50:325-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:327-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:329-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]16:10:50:423-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:425-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:426-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:427-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]16:10:50:428-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:10:50:430-test_input.py:92>>请求新增便签内容
+[STEP]16:10:50:431-test_input.py:99>>入参加密
+[INFO]16:10:50:432-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:434-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:435-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:10:50:555-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:557-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:558-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:559-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]16:10:50:561-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]16:10:50:562-test_input.py:112>>请求新增便签内容
+[STEP]16:10:50:564-test_input.py:117>>入参加密
+[INFO]16:10:50:566-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:567-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:569-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:10:50:669-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:671-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:672-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:673-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]16:10:50:674-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:10:50:675-test_input.py:134>>请求新增便签内容
+[STEP]16:10:50:677-test_input.py:141>>入参加密
+[INFO]16:10:50:678-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:679-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:681-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]16:10:50:776-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:778-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:780-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:10:50:781-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]16:10:50:782-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:10:50:784-test_input.py:157>>请求新增便签内容
+[STEP]16:10:50:785-test_input.py:164>>入参加密
+[INFO]16:10:50:787-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:789-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:790-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LiHPKLt83vsIIzEAxKqakzDKXbb4JLYJKjfoRp+2e4+dPohgZc23n1UCUYRSf9gVmzmh3VzvNUhst8SYulx47BZ/swutwkgFyD5KnuO3K+yNlYlJyKWDqYUoNBkHaY+Yw5Hark2r5bkzuwMHqxSaQ28VuNpRTVUMwIiwiYm35y1X16xkJ9Jh4xlbvs+S00STnIC8FPs4uZtSrqI2RcAnSvOd6Ej9GeVnTfDTnH6y87r7prdLCRq4qDC2g5ZQKHlnRRqRY6xKDaiIyvv3T/FIrg=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LoFd+fPre6cIvM5w5zMyrTPBcpCLcjxO9fbm0eONFd7+yqkiHcKQige1wzV8kw2KfjSnfa3K3wyGsx5kRw2toC9gav50POPHuY4n6hpCp663ACS2YXt8zM71Y3mkmOrQBgU4jjwjztyxiLPUkaqI/ZCoEQ1Sl8i03QjV9AiOKiQY1fguXfoArHGbgsflABAgZRZ4cIFAYYNQNUSA575SRqLiqS7HHQPuapV/BFWWyW5cVAM8rGXEQ5BWm0/jSMNwfUMUxYQJ11+kZyQHKm+DWE=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': None}
+[INFO]16:10:50:884-apiRe.py:36>>【requests】code:500
+[INFO]16:10:50:885-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:50:887-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]16:10:50:888-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:10:50:889-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]16:10:50:891-test_major.py:37>>请求新增便签内容
+[STEP]16:10:50:892-test_major.py:51>>入参加密
+[INFO]16:10:50:893-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:10:50:895-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:50:896-apiRe.py:30>>【requests】body:{'noteId': '1721376650891_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:10:51:018-apiRe.py:36>>【requests】code:200
+[INFO]16:10:51:020-apiRe.py:37>>【requests】body:{"responseTime":32,"contentVersion":1,"contentUpdateTime":1721376652667}
+[STEP]16:10:51:021-test_major.py:68>>请求获取分组信息接口，校验数据源的正确性
+[INFO]16:10:51:023-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:10:51:024-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]16:10:51:025-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]16:10:51:028-test_input.py:34>>请求新增便签主体
+[INFO]16:10:51:029-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:10:51:031-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:51:032-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]16:10:51:126-apiRe.py:36>>【requests】code:500
+[INFO]16:10:51:127-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:51:129-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:10:51:130-logsMethod.py:58>>Method Name:testCase02_empty_key_0_noteId
+[INFO]16:10:51:131-logsMethod.py:59>>Test Description:新增便签主,必填项值为空 [with key='noteId']
+[STEP]16:10:51:132-test_input.py:42>>请求新增便签主体
+[INFO]16:10:51:133-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:10:51:135-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:51:136-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': ''}
+[INFO]16:10:51:236-apiRe.py:36>>【requests】code:500
+[INFO]16:10:51:238-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:51:239-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:10:51:241-logsMethod.py:58>>Method Name:testCase03_None_key_0_noteId
+[INFO]16:10:51:242-logsMethod.py:59>>Test Description:新增便签主,必填项为None [with key='noteId']
+[STEP]16:10:51:243-test_input.py:50>>请求新增便签主体
+[INFO]16:10:51:245-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:10:51:246-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:51:248-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]16:10:51:342-apiRe.py:36>>【requests】code:500
+[INFO]16:10:51:344-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:10:51:345-logsMethod.py:57>>Class Name:SetNote
+[INFO]16:10:51:347-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:10:51:348-logsMethod.py:59>>Test Description:新增便签主体主流程
+[STEP]16:10:51:349-test_major.py:29>>请求新增便签主体
+[INFO]16:10:51:351-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:10:51:352-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:10:51:353-apiRe.py:30>>【requests】body:{'noteId': '1721376651350_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]16:10:51:470-apiRe.py:36>>【requests】code:200
+[INFO]16:10:51:471-apiRe.py:37>>【requests】body:{"responseTime":20,"infoVersion":1,"infoUpdateTime":1721376653021}
+[STEP]16:10:51:473-test_major.py:46>>请求获取分组信息接口，校验数据源的正确性
+[STEP]16:17:49:368-test_major.py:22>>清空用户分组数据
+[INFO]16:17:52:259-logsMethod.py:57>>Class Name:DeleteGroup
+[INFO]16:17:52:260-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:17:52:261-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]16:17:52:262-test_major.py:27>>请求新增分组
+[INFO]16:17:52:264-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:17:52:265-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:17:52:266-apiRe.py:30>>【requests】body:{'groupId': '1721377072263_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]16:17:52:377-apiRe.py:36>>【requests】code:200
+[INFO]16:17:52:378-apiRe.py:37>>【requests】body:{"responseTime":22,"updateTime":1721377073988}
+[STEP]16:17:52:379-test_major.py:40>>请求获取分组信息接口，校验数据源的正确性
+[STEP]16:17:52:381-test_major.py:22>>清空用户分组数据
+[INFO]16:17:55:540-logsMethod.py:57>>Class Name:DeleteGroup
+[INFO]16:17:55:541-logsMethod.py:58>>Method Name:testCase02_input
+[INFO]16:17:55:543-logsMethod.py:59>>Test Description:新增分组主流程,必填项缺失
+[STEP]16:17:55:544-test_major.py:44>>请求新增分组
+[INFO]16:17:55:545-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:17:55:546-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:17:55:547-apiRe.py:30>>【requests】body:{'groupName': 'NAME0601', 'order': 0}
+[INFO]16:17:55:639-apiRe.py:36>>【requests】code:500
+[INFO]16:17:55:640-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:17:55:642-test_input.py:29>>清空用户分组数据
+[INFO]16:17:58:766-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:17:58:767-logsMethod.py:58>>Method Name:testCase01_remove_key_0_groupId
+[INFO]16:17:58:768-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:17:58:770-test_input.py:35>>请求新增分组
+[INFO]16:17:58:771-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:17:58:772-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:17:58:774-apiRe.py:30>>【requests】body:{'groupName': 'NAME0601', 'order': 0}
+[INFO]16:17:58:866-apiRe.py:36>>【requests】code:500
+[INFO]16:17:58:868-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:17:58:869-test_input.py:29>>清空用户分组数据
+[INFO]16:18:01:934-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:18:01:935-logsMethod.py:58>>Method Name:testCase01_remove_key_1_groupName
+[INFO]16:18:01:936-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:18:01:937-test_input.py:35>>请求新增分组
+[INFO]16:18:01:938-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:01:940-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:01:941-apiRe.py:30>>【requests】body:{'groupId': '1721377081937_groupId', 'order': 0}
+[INFO]16:18:02:041-apiRe.py:36>>【requests】code:500
+[INFO]16:18:02:043-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]16:18:02:044-test_input.py:29>>清空用户分组数据
+[INFO]16:18:05:097-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:18:05:098-logsMethod.py:58>>Method Name:testCase02_empty_key_0_groupId
+[INFO]16:18:05:099-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:18:05:100-test_input.py:50>>请求新增分组
+[INFO]16:18:05:102-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:05:103-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:05:104-apiRe.py:30>>【requests】body:{'groupId': '1721377085100_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]16:18:05:217-apiRe.py:36>>【requests】code:200
+[INFO]16:18:05:218-apiRe.py:37>>【requests】body:{"responseTime":17,"updateTime":1721377086799}
+[STEP]16:18:05:220-test_input.py:29>>清空用户分组数据
+[INFO]16:18:08:397-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:18:08:398-logsMethod.py:58>>Method Name:testCase02_empty_key_1_groupName
+[INFO]16:18:08:399-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:18:08:400-test_input.py:50>>请求新增分组
+[INFO]16:18:08:402-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:08:403-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:08:404-apiRe.py:30>>【requests】body:{'groupId': '1721377088401_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]16:18:08:511-apiRe.py:36>>【requests】code:200
+[INFO]16:18:08:512-apiRe.py:37>>【requests】body:{"responseTime":17,"updateTime":1721377090092}
+[STEP]16:18:08:514-test_input.py:29>>清空用户分组数据
+[INFO]16:18:11:831-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:18:11:832-logsMethod.py:58>>Method Name:testCase03_key_None_0_groupId
+[INFO]16:18:11:833-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]16:18:11:835-test_input.py:65>>请求新增分组
+[INFO]16:18:11:836-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:11:837-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:11:839-apiRe.py:30>>【requests】body:{'groupId': '1721377091835_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]16:18:11:952-apiRe.py:36>>【requests】code:200
+[INFO]16:18:11:954-apiRe.py:37>>【requests】body:{"responseTime":21,"updateTime":1721377093529}
+[STEP]16:18:11:955-test_input.py:29>>清空用户分组数据
+[INFO]16:18:15:464-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]16:18:15:465-logsMethod.py:58>>Method Name:testCase03_key_None_1_groupName
+[INFO]16:18:15:466-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]16:18:15:468-test_input.py:65>>请求新增分组
+[INFO]16:18:15:469-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:15:471-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:15:472-apiRe.py:30>>【requests】body:{'groupId': '1721377095468_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]16:18:15:587-apiRe.py:36>>【requests】code:200
+[INFO]16:18:15:588-apiRe.py:37>>【requests】body:{"responseTime":18,"updateTime":1721377097170}
+[STEP]16:18:15:590-test_major.py:24>>清空用户分组数据
+[INFO]16:18:19:177-logsMethod.py:57>>Class Name:SetGroup
+[INFO]16:18:19:178-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:18:19:179-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]16:18:19:180-test_major.py:29>>请求新增分组
+[INFO]16:18:19:181-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]16:18:19:183-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:184-apiRe.py:30>>【requests】body:{'groupId': '1721377099181_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]16:18:19:300-apiRe.py:36>>【requests】code:200
+[INFO]16:18:19:301-apiRe.py:37>>【requests】body:{"responseTime":21,"updateTime":1721377100874}
+[STEP]16:18:19:302-test_major.py:42>>请求获取分组信息接口，校验数据源的正确性
+[INFO]16:18:19:304-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:305-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]16:18:19:306-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项noteId
+[STEP]16:18:19:308-test_input.py:48>>请求新增便签内容
+[STEP]16:18:19:309-test_input.py:55>>入参加密
+[INFO]16:18:19:310-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:311-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:313-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:18:19:410-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:412-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:413-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:414-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]16:18:19:415-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:18:19:417-test_input.py:70>>请求新增便签内容
+[STEP]16:18:19:419-test_input.py:77>>入参加密
+[INFO]16:18:19:420-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:421-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:423-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]16:18:19:515-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:516-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:518-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:519-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]16:18:19:520-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]16:18:19:521-test_input.py:92>>请求新增便签内容
+[STEP]16:18:19:522-test_input.py:99>>入参加密
+[INFO]16:18:19:523-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:525-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:527-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:18:19:644-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:645-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:647-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:649-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]16:18:19:650-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]16:18:19:651-test_input.py:112>>请求新增便签内容
+[STEP]16:18:19:652-test_input.py:117>>入参加密
+[INFO]16:18:19:654-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:655-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:656-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]16:18:19:755-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:756-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:758-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:759-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]16:18:19:760-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:18:19:761-test_input.py:134>>请求新增便签内容
+[STEP]16:18:19:762-test_input.py:141>>入参加密
+[INFO]16:18:19:763-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:764-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:766-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]16:18:19:881-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:883-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:884-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]16:18:19:886-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]16:18:19:887-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]16:18:19:888-test_input.py:157>>请求新增便签内容
+[STEP]16:18:19:889-test_input.py:164>>入参加密
+[INFO]16:18:19:891-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:892-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:19:894-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LiHPKLt83vsIIzEAxKqakzDKXbb4JLYJKjfoRp+2e4+dPohgZc23n1UCUYRSf9gVmzmh3VzvNUhst8SYulx47BZ/swutwkgFyD5KnuO3K+yNlYlJyKWDqYUoNBkHaY+Yw5Hark2r5bkzuwMHqxSaQ28VuNpRTVUMwIiwiYm35y1X16xkJ9Jh4xlbvs+S00STnIC8FPs4uZtSrqI2RcAnSvOd6Ej9GeVnTfDTnH6y87r7prdLCRq4qDC2g5ZQKHlnRRqRY6xKDaiIyvv3T/FIrg=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LoFd+fPre6cIvM5w5zMyrTPBcpCLcjxO9fbm0eONFd7+yqkiHcKQige1wzV8kw2KfjSnfa3K3wyGsx5kRw2toC9gav50POPHuY4n6hpCp663ACS2YXt8zM71Y3mkmOrQBgU4jjwjztyxiLPUkaqI/ZCoEQ1Sl8i03QjV9AiOKiQY1fguXfoArHGbgsflABAgZRZ4cIFAYYNQNUSA575SRqLiqS7HHQPuapV/BFWWyW5cVAM8rGXEQ5BWm0/jSMNwfUMUxYQJ11+kZyQHKm+DWE=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': None}
+[INFO]16:18:19:989-apiRe.py:36>>【requests】code:500
+[INFO]16:18:19:990-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:19:992-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]16:18:19:993-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:18:19:994-logsMethod.py:59>>Test Description:新增便签主题主流程,localContentVersion为1
+[STEP]16:18:19:995-test_major.py:37>>请求新增便签内容
+[STEP]16:18:19:997-test_major.py:51>>入参加密
+[INFO]16:18:19:998-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]16:18:19:999-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:20:001-apiRe.py:30>>【requests】body:{'noteId': '1721377099996_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]16:18:20:119-apiRe.py:36>>【requests】code:200
+[INFO]16:18:20:121-apiRe.py:37>>【requests】body:{"responseTime":26,"contentVersion":1,"contentUpdateTime":1721377101690}
+[STEP]16:18:20:122-test_major.py:68>>请求获取分组信息接口，校验数据源的正确性
+[INFO]16:18:20:123-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:18:20:125-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]16:18:20:126-logsMethod.py:59>>Test Description:新增便签主,必填项缺失 [with key='noteId']
+[STEP]16:18:20:128-test_input.py:34>>请求新增便签主体
+[INFO]16:18:20:130-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:18:20:131-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:20:133-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]16:18:20:230-apiRe.py:36>>【requests】code:500
+[INFO]16:18:20:231-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:20:232-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:18:20:234-logsMethod.py:58>>Method Name:testCase02_empty_key_0_noteId
+[INFO]16:18:20:235-logsMethod.py:59>>Test Description:新增便签主,必填项值为空 [with key='noteId']
+[STEP]16:18:20:236-test_input.py:42>>请求新增便签主体
+[INFO]16:18:20:237-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:18:20:239-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:20:240-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': ''}
+[INFO]16:18:20:331-apiRe.py:36>>【requests】code:500
+[INFO]16:18:20:333-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:20:335-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]16:18:20:336-logsMethod.py:58>>Method Name:testCase03_None_key_0_noteId
+[INFO]16:18:20:337-logsMethod.py:59>>Test Description:新增便签主,必填项为None [with key='noteId']
+[STEP]16:18:20:338-test_input.py:50>>请求新增便签主体
+[INFO]16:18:20:340-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:18:20:341-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:20:343-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]16:18:20:441-apiRe.py:36>>【requests】code:500
+[INFO]16:18:20:442-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]16:18:20:444-logsMethod.py:57>>Class Name:SetNote
+[INFO]16:18:20:445-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]16:18:20:446-logsMethod.py:59>>Test Description:新增便签主体主流程
+[STEP]16:18:20:447-test_major.py:29>>请求新增便签主体
+[INFO]16:18:20:448-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]16:18:20:449-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]16:18:20:451-apiRe.py:30>>【requests】body:{'noteId': '1721377100447_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]16:18:20:582-apiRe.py:36>>【requests】code:200
+[INFO]16:18:20:583-apiRe.py:37>>【requests】body:{"responseTime":19,"infoVersion":1,"infoUpdateTime":1721377102165}
+[STEP]16:18:20:586-test_major.py:46>>请求获取分组信息接口，校验数据源的正确性
+[INFO]17:44:19:213-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]17:44:19:215-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]17:44:19:217-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]17:44:19:219-test_major.py:46>>请求新增便签内容
+[STEP]17:44:19:221-test_major.py:59>>入参加密
+[INFO]17:44:19:230-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]17:44:19:231-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:44:19:233-apiRe.py:30>>【requests】body:{'noteId': '1721382259220_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]17:44:19:373-apiRe.py:36>>【requests】code:200
+[INFO]17:44:19:374-apiRe.py:37>>【requests】body:{"responseTime":25,"contentVersion":1,"contentUpdateTime":1721382259268}
+[STEP]17:44:19:375-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]17:44:19:377-test_major.py:82>>请求获取便签内容
+[INFO]17:44:19:378-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]17:44:19:381-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:44:19:383-apiRe.py:30>>【requests】body:{'noteIds': '1721382259220_noteId'}
+[INFO]17:44:19:482-apiRe.py:36>>【requests】code:500
+[INFO]17:44:19:484-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":""}
+[INFO]17:46:24:414-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]17:46:24:417-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]17:46:24:419-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]17:46:24:422-test_major.py:46>>请求新增便签内容
+[STEP]17:46:24:425-test_major.py:59>>入参加密
+[INFO]17:46:24:428-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]17:46:24:431-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:46:24:432-apiRe.py:30>>【requests】body:{'noteId': '1721382384424_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]17:46:24:588-apiRe.py:36>>【requests】code:200
+[INFO]17:46:24:590-apiRe.py:37>>【requests】body:{"responseTime":30,"contentVersion":1,"contentUpdateTime":1721382384332}
+[STEP]17:46:24:592-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]17:46:24:593-test_major.py:82>>请求获取便签内容
+[INFO]17:46:24:595-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]17:46:24:597-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:46:24:599-apiRe.py:30>>【requests】body:{'noteIds': '1721382384424_noteId'}
+[INFO]17:46:24:707-apiRe.py:36>>【requests】code:500
+[INFO]17:46:24:709-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":""}
+[INFO]17:59:09:252-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]17:59:09:254-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]17:59:09:255-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]17:59:09:257-test_major.py:46>>请求新增便签内容
+[STEP]17:59:09:258-test_major.py:59>>入参加密
+[INFO]17:59:09:260-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]17:59:09:262-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:59:09:264-apiRe.py:30>>【requests】body:{'noteId': '1721383149257_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]17:59:23:595-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]17:59:23:597-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]17:59:23:598-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]17:59:23:600-test_major.py:46>>请求新增便签内容
+[STEP]17:59:23:602-test_major.py:59>>入参加密
+[INFO]17:59:23:604-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]17:59:23:605-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:59:23:607-apiRe.py:30>>【requests】body:{'noteId': '1721383163601_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]17:59:23:750-apiRe.py:36>>【requests】code:200
+[INFO]17:59:23:751-apiRe.py:37>>【requests】body:{"responseTime":23,"contentVersion":1,"contentUpdateTime":1721383163646}
+[STEP]17:59:23:752-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]17:59:23:754-test_major.py:82>>请求获取便签内容
+[INFO]17:59:23:756-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]17:59:23:757-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]17:59:23:759-apiRe.py:30>>【requests】body:{'noteIds': '1721383163601_noteId'}
+[INFO]17:59:23:857-apiRe.py:36>>【requests】code:500
+[INFO]17:59:23:859-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":""}
+[INFO]18:03:42:921-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:03:42:923-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:03:42:925-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:03:42:927-test_major.py:46>>请求新增便签内容
+[STEP]18:03:42:929-test_major.py:59>>入参加密
+[INFO]18:03:42:930-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:03:42:931-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:03:42:933-apiRe.py:30>>【requests】body:{'noteId': '1721383422927_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:03:43:076-apiRe.py:36>>【requests】code:200
+[INFO]18:03:43:078-apiRe.py:37>>【requests】body:{"responseTime":27,"contentVersion":1,"contentUpdateTime":1721383423029}
+[STEP]18:03:43:079-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]18:03:43:082-test_major.py:82>>请求获取便签内容
+[INFO]18:03:43:084-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:03:43:085-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:03:43:087-apiRe.py:30>>【requests】body:{'noteIds': ['1721383422927_noteId']}
+[INFO]18:03:43:213-apiRe.py:36>>【requests】code:200
+[INFO]18:03:43:214-apiRe.py:37>>【requests】body:{"responseTime":13,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721383422927_noteId","infoNoteId":"1721383422927_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721383423029,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:03:43:217-test_major.py:90>>返回体解密
+[INFO]18:07:24:896-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:07:24:898-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:07:24:899-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:07:24:901-test_major.py:46>>请求新增便签内容
+[STEP]18:07:24:903-test_major.py:59>>入参加密
+[INFO]18:07:24:905-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:07:24:907-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:07:24:909-apiRe.py:30>>【requests】body:{'noteId': '1721383644902_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:07:25:042-apiRe.py:36>>【requests】code:200
+[INFO]18:07:25:044-apiRe.py:37>>【requests】body:{"responseTime":24,"contentVersion":1,"contentUpdateTime":1721383644945}
+[STEP]18:07:25:046-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]18:07:25:047-test_major.py:82>>请求获取便签内容
+[INFO]18:07:25:049-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:07:25:050-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:07:25:052-apiRe.py:30>>【requests】body:{'noteIds': ['1721383644902_noteId']}
+[INFO]18:07:25:162-apiRe.py:36>>【requests】code:200
+[INFO]18:07:25:164-apiRe.py:37>>【requests】body:{"responseTime":12,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721383644902_noteId","infoNoteId":"1721383644902_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721383644945,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:07:25:166-test_major.py:90>>返回体解密
+[INFO]18:09:01:137-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:09:01:139-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:09:01:141-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:09:01:143-test_major.py:46>>请求新增便签内容
+[STEP]18:09:01:145-test_major.py:59>>入参加密
+[INFO]18:09:01:147-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:09:01:149-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:09:01:151-apiRe.py:30>>【requests】body:{'noteId': '1721383741144_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:09:01:290-apiRe.py:36>>【requests】code:200
+[INFO]18:09:01:291-apiRe.py:37>>【requests】body:{"responseTime":24,"contentVersion":1,"contentUpdateTime":1721383741265}
+[STEP]18:09:01:293-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]18:09:01:294-test_major.py:82>>请求获取便签内容
+[INFO]18:09:01:296-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:09:01:298-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:09:01:300-apiRe.py:30>>【requests】body:{'noteIds': ['1721383741144_noteId']}
+[INFO]18:09:01:413-apiRe.py:36>>【requests】code:200
+[INFO]18:09:01:414-apiRe.py:37>>【requests】body:{"responseTime":13,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721383741144_noteId","infoNoteId":"1721383741144_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721383741265,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:09:01:416-test_major.py:90>>返回体解密
+[STEP]18:09:01:418-test_major.py:115>>请求获取分组信息接口，校验数据源的正确性
+[INFO]18:13:12:162-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:13:12:165-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:13:12:168-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:13:12:171-test_major.py:46>>请求新增便签内容
+[STEP]18:13:12:173-test_major.py:59>>入参加密
+[INFO]18:13:12:177-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:13:12:179-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:13:12:182-apiRe.py:30>>【requests】body:{'noteId': '1721383992171_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:13:30:582-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:13:30:584-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:13:30:585-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:13:30:587-test_major.py:46>>请求新增便签内容
+[STEP]18:13:30:588-test_major.py:59>>入参加密
+[INFO]18:13:30:590-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:13:30:592-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:13:30:593-apiRe.py:30>>【requests】body:{'noteId': '1721384010587_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:13:30:724-apiRe.py:36>>【requests】code:200
+[INFO]18:13:30:726-apiRe.py:37>>【requests】body:{"responseTime":22,"contentVersion":1,"contentUpdateTime":1721384010678}
+[STEP]18:13:30:727-test_major.py:76>>请求获取分组信息接口，校验数据源的正确性
+[STEP]18:13:30:729-test_major.py:82>>请求获取便签内容
+[INFO]18:13:30:730-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:13:30:732-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:13:30:733-apiRe.py:30>>【requests】body:{'noteIds': ['1721384010587_noteId']}
+[INFO]18:13:30:843-apiRe.py:36>>【requests】code:200
+[INFO]18:13:30:845-apiRe.py:37>>【requests】body:{"responseTime":13,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721384010587_noteId","infoNoteId":"1721384010587_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721384010678,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:13:30:847-test_major.py:90>>返回体解密
+[STEP]18:13:30:849-test_major.py:115>>请求获取分组信息接口，校验数据源的正确性
+[INFO]18:17:53:398-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:17:53:399-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:17:53:401-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:17:53:402-test_input.py:40>>请求新增便签内容
+[STEP]18:17:53:404-test_input.py:53>>入参加密
+[INFO]18:17:53:406-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:17:53:408-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:17:53:409-apiRe.py:30>>【requests】body:{'noteId': '1721384273403_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:18:08:799-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:18:08:801-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:18:08:803-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:18:08:806-test_input.py:40>>请求新增便签内容
+[STEP]18:18:08:807-test_input.py:53>>入参加密
+[INFO]18:18:08:809-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:18:08:811-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:18:08:813-apiRe.py:30>>【requests】body:{'noteId': '1721384288806_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:18:08:971-apiRe.py:36>>【requests】code:200
+[INFO]18:18:08:973-apiRe.py:37>>【requests】body:{"responseTime":38,"contentVersion":1,"contentUpdateTime":1721384288876}
+[STEP]18:18:08:975-test_input.py:70>>请求获取便签信息接口，校验数据源的正确性
+[STEP]18:18:08:977-test_input.py:76>>请求获取便签内容
+[INFO]18:18:08:978-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:18:08:980-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:18:08:981-apiRe.py:30>>【requests】body:{'noteIds': ['1721384288806_noteId']}
+[INFO]18:18:09:096-apiRe.py:36>>【requests】code:200
+[INFO]18:18:09:099-apiRe.py:37>>【requests】body:{"responseTime":15,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721384288806_noteId","infoNoteId":"1721384288806_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721384288876,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:18:09:101-test_input.py:84>>返回体解密
+[STEP]18:18:09:103-test_input.py:112>>请求获取便签内容接口，校验数据源的正确性
+[INFO]18:20:13:074-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:20:13:076-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:20:13:077-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:20:13:079-test_input.py:40>>请求新增便签内容
+[STEP]18:20:13:080-test_input.py:53>>入参加密
+[INFO]18:20:13:083-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:20:13:086-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:20:13:088-apiRe.py:30>>【requests】body:{'noteId': '1721384413079_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:20:13:228-apiRe.py:36>>【requests】code:200
+[INFO]18:20:13:229-apiRe.py:37>>【requests】body:{"responseTime":23,"contentVersion":1,"contentUpdateTime":1721384413114}
+[STEP]18:20:13:231-test_input.py:70>>请求获取便签信息接口，校验数据源的正确性
+[STEP]18:20:13:232-test_input.py:76>>请求获取便签内容
+[INFO]18:20:13:234-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:20:13:235-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:20:13:237-apiRe.py:30>>【requests】body:{'noteIds': ['1721384413079_noteId']}
+[INFO]18:20:13:346-apiRe.py:36>>【requests】code:200
+[INFO]18:20:13:348-apiRe.py:37>>【requests】body:{"responseTime":13,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721384413079_noteId","infoNoteId":"1721384413079_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721384413114,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:20:13:351-test_input.py:84>>返回体解密
+[STEP]18:20:13:353-test_input.py:112>>请求获取便签内容接口，校验数据源的正确性
+[INFO]18:28:07:643-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]18:28:07:644-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]18:28:07:646-logsMethod.py:59>>Test Description:获取便签内容主流程
+[STEP]18:28:07:647-test_major.py:45>>请求新增便签内容
+[STEP]18:28:07:649-test_major.py:58>>入参加密
+[INFO]18:28:07:651-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]18:28:07:652-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:28:07:654-apiRe.py:30>>【requests】body:{'noteId': '1721384887648_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]18:28:07:784-apiRe.py:36>>【requests】code:200
+[INFO]18:28:07:786-apiRe.py:37>>【requests】body:{"responseTime":22,"contentVersion":1,"contentUpdateTime":1721384887596}
+[STEP]18:28:07:788-test_major.py:75>>请求获取分组信息接口，校验数据源的正确性
+[STEP]18:28:07:789-test_major.py:81>>请求获取便签内容
+[INFO]18:28:07:791-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]18:28:07:793-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]18:28:07:795-apiRe.py:30>>【requests】body:{'noteIds': ['1721384887648_noteId']}
+[INFO]18:28:07:900-apiRe.py:36>>【requests】code:200
+[INFO]18:28:07:902-apiRe.py:37>>【requests】body:{"responseTime":14,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721384887648_noteId","infoNoteId":"1721384887648_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721384887596,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]18:28:07:904-test_major.py:89>>返回体解密
+[STEP]18:28:07:906-test_major.py:115>>请求获取分组信息接口，校验数据源的正确性
+[STEP]21:53:05:162-test_input.py:22>>清空用户分组数据
+[INFO]21:53:08:975-logsMethod.py:57>>Class Name:DeleteGroupInput
+[INFO]21:53:08:976-logsMethod.py:58>>Method Name:testCase01_remove_input
+[INFO]21:53:08:977-logsMethod.py:59>>Test Description:新增分组主流程,必填项缺失
+[STEP]21:53:08:978-test_input.py:27>>请求新增分组
+[INFO]21:53:08:988-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:08:989-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:08:990-apiRe.py:30>>【requests】body:{'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:09:086-apiRe.py:36>>【requests】code:500
+[INFO]21:53:09:087-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]21:53:09:089-test_input.py:22>>清空用户分组数据
+[INFO]21:53:12:818-logsMethod.py:57>>Class Name:DeleteGroupInput
+[INFO]21:53:12:820-logsMethod.py:58>>Method Name:testCase02_empty_input
+[INFO]21:53:12:821-logsMethod.py:59>>Test Description:新增分组主流程,必填项为空
+[STEP]21:53:12:822-test_input.py:46>>请求新增分组
+[INFO]21:53:12:823-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:12:824-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:12:825-apiRe.py:30>>【requests】body:{'groupId': '', 'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:12:938-apiRe.py:36>>【requests】code:500
+[INFO]21:53:12:939-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]21:53:12:940-test_input.py:22>>清空用户分组数据
+[INFO]21:53:16:699-logsMethod.py:57>>Class Name:DeleteGroupInput
+[INFO]21:53:16:701-logsMethod.py:58>>Method Name:testCase03_None_input
+[INFO]21:53:16:702-logsMethod.py:59>>Test Description:新增分组主流程,必填项None
+[STEP]21:53:16:703-test_input.py:65>>请求新增分组
+[INFO]21:53:16:704-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:16:705-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:16:706-apiRe.py:30>>【requests】body:{'groupId': None, 'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:16:801-apiRe.py:36>>【requests】code:500
+[INFO]21:53:16:802-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]21:53:16:805-test_major.py:22>>清空用户分组数据
+[INFO]21:53:20:509-logsMethod.py:57>>Class Name:DeleteGroup
+[INFO]21:53:20:511-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]21:53:20:512-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]21:53:20:513-test_major.py:27>>请求新增分组
+[INFO]21:53:20:514-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:20:515-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:20:517-apiRe.py:30>>【requests】body:{'groupId': '1721397200513_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:20:626-apiRe.py:36>>【requests】code:200
+[INFO]21:53:20:628-apiRe.py:37>>【requests】body:{"responseTime":17,"updateTime":1721397200938}
+[STEP]21:53:20:629-test_major.py:40>>请求获取分组信息接口，校验数据源的正确性
+[INFO]21:53:20:630-logsMethod.py:57>>Class Name:GetNoteBodyInput
+[INFO]21:53:20:631-logsMethod.py:58>>Method Name:testCase01_remove_input
+[INFO]21:53:20:632-logsMethod.py:59>>Test Description:获取便签内容,必填项缺失
+[STEP]21:53:20:634-test_input.py:28>>请求获取便签内容
+[INFO]21:53:20:635-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]21:53:20:636-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:20:637-apiRe.py:30>>【requests】body:{}
+[INFO]21:53:20:727-apiRe.py:36>>【requests】code:500
+[INFO]21:53:20:728-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:20:730-logsMethod.py:57>>Class Name:GetNoteBodyInput
+[INFO]21:53:20:731-logsMethod.py:58>>Method Name:testCase02_empty_input
+[INFO]21:53:20:732-logsMethod.py:59>>Test Description:获取便签内容,必填项empty
+[STEP]21:53:20:733-test_input.py:42>>请求获取便签内容
+[INFO]21:53:20:736-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]21:53:20:737-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:20:738-apiRe.py:30>>【requests】body:{'noteIds': ''}
+[INFO]21:53:20:833-apiRe.py:36>>【requests】code:500
+[INFO]21:53:20:834-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":""}
+[INFO]21:53:20:836-logsMethod.py:57>>Class Name:GetNoteBodyInput
+[INFO]21:53:20:837-logsMethod.py:58>>Method Name:testCase03_None_input
+[INFO]21:53:20:839-logsMethod.py:59>>Test Description:获取便签内容,必填项empty
+[STEP]21:53:20:840-test_input.py:53>>请求获取便签内容
+[INFO]21:53:20:841-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]21:53:20:842-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:20:844-apiRe.py:30>>【requests】body:{'noteIds': None}
+[INFO]21:53:20:950-apiRe.py:36>>【requests】code:500
+[INFO]21:53:20:951-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:20:953-logsMethod.py:57>>Class Name:GetNoteBody
+[INFO]21:53:20:954-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]21:53:20:955-logsMethod.py:59>>Test Description:None
+[STEP]21:53:20:957-test_major.py:45>>请求新增便签内容
+[STEP]21:53:20:958-test_major.py:58>>入参加密
+[INFO]21:53:20:960-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:20:961-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:20:962-apiRe.py:30>>【requests】body:{'noteId': '1721397200957_noteId', 'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]21:53:21:079-apiRe.py:36>>【requests】code:200
+[INFO]21:53:21:081-apiRe.py:37>>【requests】body:{"responseTime":24,"contentVersion":1,"contentUpdateTime":1721397201580}
+[STEP]21:53:21:082-test_major.py:75>>请求获取分组信息接口，校验数据源的正确性
+[STEP]21:53:21:083-test_major.py:82>>请求获取便签内容
+[INFO]21:53:21:084-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]21:53:21:086-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:21:087-apiRe.py:30>>【requests】body:{'noteIds': ['1721397200957_noteId']}
+[INFO]21:53:21:194-apiRe.py:36>>【requests】code:200
+[INFO]21:53:21:195-apiRe.py:37>>【requests】body:{"responseTime":14,"noteBodies":[{"summary":"NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=","noteId":"1721397200957_noteId","infoNoteId":"1721397200957_noteId","bodyType":0,"body":"NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=","contentVersion":1,"contentUpdateTime":1721397201580,"title":"NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=","valid":1}]}
+[STEP]21:53:21:197-test_major.py:90>>返回体解密
+[STEP]21:53:21:199-test_major.py:116>>请求获取分组信息接口，校验数据源的正确性
+[STEP]21:53:21:208-test_input.py:29>>清空用户分组数据
+[INFO]21:53:25:129-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:25:130-logsMethod.py:58>>Method Name:testCase01_remove_key_0_groupId
+[INFO]21:53:25:131-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupId']
+[STEP]21:53:25:142-test_input.py:35>>请求新增分组
+[INFO]21:53:25:143-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:25:144-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:25:145-apiRe.py:30>>【requests】body:{'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:25:247-apiRe.py:36>>【requests】code:500
+[INFO]21:53:25:248-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]21:53:25:250-test_input.py:29>>清空用户分组数据
+[INFO]21:53:29:060-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:29:061-logsMethod.py:58>>Method Name:testCase01_remove_key_1_groupName
+[INFO]21:53:29:063-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项缺失 [with key='groupName']
+[STEP]21:53:29:064-test_input.py:35>>请求新增分组
+[INFO]21:53:29:065-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:29:066-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:29:068-apiRe.py:30>>【requests】body:{'groupId': '1721397209064_groupId', 'order': 0}
+[INFO]21:53:29:161-apiRe.py:36>>【requests】code:500
+[INFO]21:53:29:162-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]21:53:29:163-test_input.py:29>>清空用户分组数据
+[INFO]21:53:33:009-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:33:010-logsMethod.py:58>>Method Name:testCase02_empty_key_0_groupId
+[INFO]21:53:33:011-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项为空 [with key='groupId']
+[STEP]21:53:33:012-test_input.py:50>>请求新增分组
+[INFO]21:53:33:013-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:33:015-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:33:016-apiRe.py:30>>【requests】body:{'groupId': '1721397213012_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]21:53:33:125-apiRe.py:36>>【requests】code:200
+[INFO]21:53:33:126-apiRe.py:37>>【requests】body:{"responseTime":15,"updateTime":1721397213439}
+[STEP]21:53:33:128-test_input.py:29>>清空用户分组数据
+[INFO]21:53:37:061-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:37:062-logsMethod.py:58>>Method Name:testCase02_empty_key_1_groupName
+[INFO]21:53:37:063-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项为空 [with key='groupName']
+[STEP]21:53:37:064-test_input.py:50>>请求新增分组
+[INFO]21:53:37:065-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:37:067-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:37:068-apiRe.py:30>>【requests】body:{'groupId': '1721397217064_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': ''}
+[INFO]21:53:37:176-apiRe.py:36>>【requests】code:200
+[INFO]21:53:37:177-apiRe.py:37>>【requests】body:{"responseTime":14,"updateTime":1721397217491}
+[STEP]21:53:37:179-test_input.py:29>>清空用户分组数据
+[INFO]21:53:41:316-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:41:317-logsMethod.py:58>>Method Name:testCase03_key_None_0_groupId
+[INFO]21:53:41:318-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项为None [with key='groupId']
+[STEP]21:53:41:319-test_input.py:65>>请求新增分组
+[INFO]21:53:41:321-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:41:322-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:41:323-apiRe.py:30>>【requests】body:{'groupId': '1721397221320_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]21:53:41:435-apiRe.py:36>>【requests】code:200
+[INFO]21:53:41:437-apiRe.py:37>>【requests】body:{"responseTime":16,"updateTime":1721397221829}
+[STEP]21:53:41:438-test_input.py:29>>清空用户分组数据
+[INFO]21:53:45:664-logsMethod.py:57>>Class Name:SetGroupInput
+[INFO]21:53:45:666-logsMethod.py:58>>Method Name:testCase03_key_None_1_groupName
+[INFO]21:53:45:667-logsMethod.py:59>>Test Description:新增分组主流程,groupId&groupName必填项为None [with key='groupName']
+[STEP]21:53:45:668-test_input.py:65>>请求新增分组
+[INFO]21:53:45:669-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:45:670-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:45:672-apiRe.py:30>>【requests】body:{'groupId': '1721397225668_groupId', 'groupName': 'NAME0601', 'order': 0, 'key': None}
+[INFO]21:53:45:782-apiRe.py:36>>【requests】code:200
+[INFO]21:53:45:783-apiRe.py:37>>【requests】body:{"responseTime":16,"updateTime":1721397226097}
+[STEP]21:53:45:785-test_major.py:24>>清空用户分组数据
+[INFO]21:53:50:161-logsMethod.py:57>>Class Name:SetGroup
+[INFO]21:53:50:162-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]21:53:50:164-logsMethod.py:59>>Test Description:新增分组主流程
+[STEP]21:53:50:165-test_major.py:29>>请求新增分组
+[INFO]21:53:50:166-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]21:53:50:167-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:168-apiRe.py:30>>【requests】body:{'groupId': '1721397230165_groupId', 'groupName': 'NAME0601', 'order': 0}
+[INFO]21:53:50:288-apiRe.py:36>>【requests】code:200
+[INFO]21:53:50:289-apiRe.py:37>>【requests】body:{"responseTime":15,"updateTime":1721397230771}
+[STEP]21:53:50:290-test_major.py:44>>请求获取分组信息接口，校验数据源的正确性
+[INFO]21:53:50:291-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:293-logsMethod.py:58>>Method Name:testCase01_remove_key
+[INFO]21:53:50:294-logsMethod.py:59>>Test Description:新增便签主体主流程,移除必填项noteId
+[STEP]21:53:50:296-test_input.py:48>>请求新增便签内容
+[STEP]21:53:50:297-test_input.py:55>>入参加密
+[INFO]21:53:50:298-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:299-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:300-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NoUAXzsWHCvsLnzIblPXxsM=', 'summary': 'NTE1MDk1NjE1MzM0NTM2Nu+GvB3qYU3KZZcg8SnFsCo=', 'body': 'NTE1MDk1NjE1MzM0NTM2NlIaj1dFnGNPkK8XueYEsfI=', 'localContentVersion': 1, 'BodyType': 0}
+[INFO]21:53:50:396-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:397-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:399-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:400-logsMethod.py:58>>Method Name:testCase02_empty_key
+[INFO]21:53:50:401-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]21:53:50:402-test_input.py:70>>请求新增便签内容
+[STEP]21:53:50:404-test_input.py:77>>入参加密
+[INFO]21:53:50:405-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:406-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:408-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqSYUOVQxdVUc2d4jlKOeRnn0p0d2cJRWTU3VP0PQg5PzA==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqRF9xpyNf2VBg2Umo/hEpzBUvEJ3Pprt2nX6CyX5qfEUQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQBrA+shzE+rp7KdIqC7b6+QfYk5humIOhw2DkCXcvNNQ==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': ''}
+[INFO]21:53:50:503-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:504-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:506-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:507-logsMethod.py:58>>Method Name:testCase03_None_key
+[INFO]21:53:50:508-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项noteId为空
+[STEP]21:53:50:509-test_input.py:92>>请求新增便签内容
+[STEP]21:53:50:510-test_input.py:99>>入参加密
+[INFO]21:53:50:512-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:513-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:514-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k/FIVZ25ngPsgBTUG81WSVB0UQpidJvZ8x2Uvexi+6LlUxRI3ayj0kvJ9Rcyfm2LpTY+qnvjhhj24vpWME/xYnQ==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0km3LVtTMB5+5NdW5u3ppNEyez2wrQaLPYfM5Sgoj2CO+95HS3s/Gcu0kzGgUIoCmTRqhdCBX/kxV/RKGlUzoMwQ==', 'body': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0kFEgdUR9PtRW2YYGkVqc0P3S+YzmFWXlg3fOs7oEHAus9aY6hGRw+Lps5efi3shO1RMCKipk20SspTtbOFUP1XA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]21:53:50:608-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:610-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:611-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:612-logsMethod.py:58>>Method Name:testCase04_remove_key
+[INFO]21:53:50:614-logsMethod.py:59>>Test Description:新增便签主题主流程,移除必填项body
+[STEP]21:53:50:615-test_input.py:112>>请求新增便签内容
+[STEP]21:53:50:616-test_input.py:117>>入参加密
+[INFO]21:53:50:618-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:619-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:620-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OCOctG6DMZsKsIHnWtPEQ/ZtmTRC+3xGBJBEXpM/8bYqDtbOh66K3til5DT+7auhzHZylMsVvUZ1+OYTwpvxVKnB20y47AYnZUr11TMvZEgewyASNcokLLP2M0bSAYqHLE=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4ODJXwNy9eDhI7L/HUQHjp0/4eN+9KKX+gagzRQnUQChTCyBpqFvALWiDYmyM0TXRA5Q0zUE4NGcLi1rEH02qN9kslLJjEWWvDfKtJC7Zj5LWbWFTE2OyKPkR2yswV5t85c=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None}
+[INFO]21:53:50:711-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:713-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:714-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:715-logsMethod.py:58>>Method Name:testCase05_empty_key
+[INFO]21:53:50:716-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]21:53:50:717-test_input.py:134>>请求新增便签内容
+[STEP]21:53:50:719-test_input.py:141>>入参加密
+[INFO]21:53:50:720-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:721-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:722-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqI+7hxEa7N2aKZFEfx8/rTzV0fp1oQehHkCsP4vnEnVxfPlLpFZLJmfY04p2z2vBc01qV+AsaJh10S6ZNaIr4pnSZ+SlA/sqJRLl2Ia47XhtEt4URpu9dkQeNFZTMVJT0CjytcDBWK2nhOGWtsja+APJkpVBP+t537WH9dbrzL43trnTsN0z6HWCggPIeCrUyw==', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqJQLAaMS7O3LUWqRpuD/w4264c4pDN2RwE1dUGcwURgj66opCzgvOSMueTn5pMIqVx4rwgEdyh/UZktAum5KTCkeeF4PwtiH8kMNdNN4pB5YASHeo996oUHREIINxio/txSCZNBnVyRXOE9t+oxy6Wnx4BIozewWfwIA2qrYIf76RUG2d6tXbrBzWR0Tz2WWqA==', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': 'NTE1MDk1NjE1MzM0NTM2Ntcv9jkLmREgeSu+ruMJ4x4='}
+[INFO]21:53:50:832-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:834-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:836-logsMethod.py:57>>Class Name:SetNoteContentInput
+[INFO]21:53:50:837-logsMethod.py:58>>Method Name:testCase06_None_key
+[INFO]21:53:50:838-logsMethod.py:59>>Test Description:新增便签主题主流程,必填项body为空
+[STEP]21:53:50:839-test_input.py:157>>请求新增便签内容
+[STEP]21:53:50:841-test_input.py:164>>入参加密
+[INFO]21:53:50:842-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]21:53:50:843-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:845-apiRe.py:30>>【requests】body:{'title': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LiHPKLt83vsIIzEAxKqakzDKXbb4JLYJKjfoRp+2e4+dPohgZc23n1UCUYRSf9gVmzmh3VzvNUhst8SYulx47BZ/swutwkgFyD5KnuO3K+yNlYlJyKWDqYUoNBkHaY+Yw5Hark2r5bkzuwMHqxSaQ28VuNpRTVUMwIiwiYm35y1X16xkJ9Jh4xlbvs+S00STnIC8FPs4uZtSrqI2RcAnSvOd6Ej9GeVnTfDTnH6y87r7prdLCRq4qDC2g5ZQKHlnRRqRY6xKDaiIyvv3T/FIrg=', 'summary': 'NTE1MDk1NjE1MzM0NTM2NuaYzxtZnOX1937d8gaHmqQtWeBUDUMKhyMd9hoR6/0k1k3KqAOACXS+Q6n70DQxWKslZfG3NWx6tcqV32Vf4OC2OR9mMqjszK67ELqQVo2W4yu9QBSVZr0K+eU+Uy8KqEuT+zLiJkvA2K73gX3bkrxIqNxSZXBhqodDgrHUdntwWwnrLIsOIyeR3n556gg/3LoFd+fPre6cIvM5w5zMyrTPBcpCLcjxO9fbm0eONFd7+yqkiHcKQige1wzV8kw2KfjSnfa3K3wyGsx5kRw2toC9gav50POPHuY4n6hpCp663ACS2YXt8zM71Y3mkmOrQBgU4jjwjztyxiLPUkaqI/ZCoEQ1Sl8i03QjV9AiOKiQY1fguXfoArHGbgsflABAgZRZ4cIFAYYNQNUSA575SRqLiqS7HHQPuapV/BFWWyW5cVAM8rGXEQ5BWm0/jSMNwfUMUxYQJ11+kZyQHKm+DWE=', 'localContentVersion': 1, 'BodyType': 0, 'noteId': None, 'body': None}
+[INFO]21:53:50:937-apiRe.py:36>>【requests】code:500
+[INFO]21:53:50:938-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:50:939-logsMethod.py:57>>Class Name:SetNoteContent
+[INFO]21:53:50:940-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]21:53:50:942-logsMethod.py:59>>Test Description:新增便签内容主流程,localContentVersion为1
+[STEP]21:53:50:943-test_major.py:37>>请求新增便签内容
+[STEP]21:53:50:944-test_major.py:51>>入参加密
+[INFO]21:53:50:948-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]21:53:50:949-logsMethod.py:58>>Method Name:testCase01_remove_key_0_noteId
+[INFO]21:53:50:950-logsMethod.py:59>>Test Description:新增便签主体,必填项缺失 [with key='noteId']
+[STEP]21:53:50:952-test_input.py:34>>请求新增便签主体
+[INFO]21:53:50:953-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:53:50:954-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:50:955-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]21:53:51:054-apiRe.py:36>>【requests】code:500
+[INFO]21:53:51:056-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:51:057-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]21:53:51:058-logsMethod.py:58>>Method Name:testCase02_empty_key_0_noteId
+[INFO]21:53:51:059-logsMethod.py:59>>Test Description:新新增便签主体,必填项值为空 [with key='noteId']
+[STEP]21:53:51:061-test_input.py:42>>请求新增便签主体
+[INFO]21:53:51:062-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:53:51:063-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:51:065-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': ''}
+[INFO]21:53:51:159-apiRe.py:36>>【requests】code:500
+[INFO]21:53:51:161-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:51:162-logsMethod.py:57>>Class Name:SetNoteInput
+[INFO]21:53:51:163-logsMethod.py:58>>Method Name:testCase03_None_key_0_noteId
+[INFO]21:53:51:165-logsMethod.py:59>>Test Description:新增便签主体,必填项为None [with key='noteId']
+[STEP]21:53:51:166-test_input.py:50>>请求新增便签主体
+[INFO]21:53:51:167-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:53:51:168-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:51:169-apiRe.py:30>>【requests】body:{'star': 0, 'remindType': 0, 'groupId': '001', 'key': None}
+[INFO]21:53:51:262-apiRe.py:36>>【requests】code:500
+[INFO]21:53:51:264-apiRe.py:37>>【requests】body:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[INFO]21:53:51:265-logsMethod.py:57>>Class Name:SetNote
+[INFO]21:53:51:267-logsMethod.py:58>>Method Name:testCase01_major
+[INFO]21:53:51:267-logsMethod.py:59>>Test Description:新增便签主体主流程
+[STEP]21:53:51:278-test_major.py:29>>请求新增便签主体
+[INFO]21:53:51:280-apiRe.py:28>>【requests】url:http://note-api.wps.cn/v3/notesvr/set/noteinfo
+[INFO]21:53:51:283-apiRe.py:29>>【requests】headers:{'Cookie': 'wps_sid=V02SvflNl5fzuIX6IfG-UybIXNzzIJU00af1be53001a32de1c', 'X-user-key': '439541276'}
+[INFO]21:53:51:284-apiRe.py:30>>【requests】body:{'noteId': '1721397231279_noteId', 'star': 0, 'remindType': 0, 'groupId': '001'}
+[INFO]21:53:51:394-apiRe.py:36>>【requests】code:200
+[INFO]21:53:51:396-apiRe.py:37>>【requests】body:{"responseTime":22,"infoVersion":1,"infoUpdateTime":1721397231899}
+[STEP]21:53:51:397-test_major.py:46>>请求获取分组信息接口，校验数据源的正确性
